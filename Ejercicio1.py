@@ -16,12 +16,13 @@ def OrdenarNombre(nombre_Apellido):
     nombre = " ".join(x[:-1])
 
     nombre_ordenado = (apellido, nombre)
+    
 
     print(nombre_ordenado)
     return nombre_ordenado
 
 
-def ListaNombre(nombre_apellido_a):
+def ListaNombre(nombre_apellido):
     
     """Funcion: la funcion recibe una lista y la ordena por apellidos en 
                 orden alfabetico
